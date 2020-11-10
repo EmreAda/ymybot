@@ -19,7 +19,7 @@ class HelpCommand(commands.HelpCommand):
         super().__init__(
             command_attrs={
                 "aliases": ["yardım"],
-                "help": "Katagori ve komutların yardım mesajını görüntüler.",
+                "help": "Kategori ve komutların yardım mesajını görüntüler.",
                 "cooldown": commands.Cooldown(1, 3.0, commands.BucketType.member),
             }
         )
